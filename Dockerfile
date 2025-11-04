@@ -1,5 +1,7 @@
 FROM whanos-javascript
 
+COPY app ./app
+
 RUN npm install -g typescript@4.4.3
 
 RUN tsc
