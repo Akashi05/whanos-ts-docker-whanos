@@ -1,5 +1,5 @@
 # On part de l'image de base qui fournit Node.js et un WORKDIR /app
-FROM whanos-javascript:base
+FROM whanos-javascript
 
 # 1. On copie les fichiers de configuration
 COPY package*.json ./
